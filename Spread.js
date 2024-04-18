@@ -1,0 +1,10 @@
+let arr=[1,54,65,4,85,65,4,8,63,5,8,5,5,84,4,546,54,844868];
+console.log(arr);
+console.log(...arr);
+console.log(`Minimum value is ${Math.min(arr[0],arr[1],arr[2],arr[3],arr[4],arr[5],arr[6],arr[7],arr[8],arr[9],arr[10],arr[11],arr[12],arr[13],arr[14],arr[15],arr[16],arr[17])}`);
+console.log(`The minimum value is ${Math.min(...arr)}`);
+console.log(`Maximum value is ${Math.max(arr[0],arr[1],arr[2],arr[3],arr[4],arr[5],arr[6],arr[7],arr[8],arr[9],arr[10],arr[11],arr[12],arr[13],arr[14],arr[15],arr[16],arr[17])}`);
+console.log(`The maximum value is ${Math.max(...arr)}`);
+let str="Aman Verma";
+console.log(str);
+console.log(...str);
